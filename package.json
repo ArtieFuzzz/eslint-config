@@ -1,0 +1,20 @@
+{
+  "name": "@artiefuzzz/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint config for my personal projects",
+  "main": "index.js",
+  "repository": "https://github.com/ArtieFuzzz/eslint-config",
+  "author": "ArtieFuzzz#8298",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.4.1"
+  }
+}
