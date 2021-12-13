@@ -202,10 +202,10 @@ module.exports = {
     'no-useless-rename': 'error',
     'no-useless-return': 'error',
     'max-statements-per-line': [
-      error,
+      'error',
       {
         max: 1,
       },
     ],
   },
-};
+}
