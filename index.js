@@ -84,6 +84,18 @@ module.exports = {
     '@typescript-eslint/naming-convention': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/ban-types': [
+      'error',
+      {
+        types: {
+          Object: {
+            message:
+              'Use either Record<PropertyKey, unknown> or { [K: string]: unknown }',
+            fixWith: 'Record<PropertyKey, unknown>',
+          },
+        },
+      },
+    ],
     quotes: ['error', 'single'],
     'no-fallthrough': 'off',
     'block-scoped-var': 'error',
