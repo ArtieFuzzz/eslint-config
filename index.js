@@ -93,6 +93,27 @@ module.exports = {
               'Use either Record<PropertyKey, unknown> or { [K: string]: unknown }',
             fixWith: 'Record<PropertyKey, unknown>',
           },
+          object: {
+            message:
+              'Use either Record<PropertyKey, unknown> or { [K: string]: unknown }',
+            fixWith: 'Record<PropertyKey, unknown>',
+          },
+          'string[]': {
+            message: 'Use Array<string>',
+            fixWith: 'Array<string>',
+          },
+          'number[]': {
+            message: 'Use Array<number>',
+            fixWith: 'Array<number>',
+          },
+          'boolean[]': {
+            message: 'Use Array<boolean>',
+            fixWith: 'Array<boolean>',
+          },
+          'any[]': {
+            message: 'Use Array<any>',
+            fixWith: 'Array<any>',
+          },
         },
       },
     ],
