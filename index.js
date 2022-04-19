@@ -82,8 +82,8 @@ module.exports = {
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/prefer-ts-expect-error': 'off',
     '@typescript-eslint/naming-convention': 'off',
-    '@typescript-eslint/explicit-module-boundary-types': 'on',
-    '@typescript-eslint/explicit-function-return-type': 'on',
+    '@typescript-eslint/explicit-module-boundary-types': 'error',
+    '@typescript-eslint/explicit-function-return-type': 'error',
     '@typescript-eslint/ban-types': [
       'error',
       {
